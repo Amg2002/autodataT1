@@ -1,0 +1,8 @@
+.alert-card{
+    position: fixed;
+    width: 350px;
+    height: auto;
+    left: 76%;
+    top: 80px;
+    z-index: 100000;
+}

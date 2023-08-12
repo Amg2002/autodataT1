@@ -1,0 +1,37 @@
+@import url('../node_modules/vis-network/dist/dist/vis-network.css');
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: local('Montserrat-Regular'),
+    url(./assets/fonts/Montserrat-Regular.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  font-size: 85%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+login {
+  background-image: url('http://web3canvas.com/wp-content/uploads/2014/02/littlevisuals-high-quality-hd-banner-images-stock-photos-free-laptop-topview-download.jpg');
+  background-size: cover;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+span {
+  font-family: 'Montserrat-Regular';
+}
+
+.vis-network {
+  overflow: visible;
+}
+
+.network-tooltip {
+  position: absolute !important;
+}

@@ -1,0 +1,38 @@
+#map-container{
+  position: relative;
+  width: 100%
+}
+
+#map {
+  position: relative;
+  width: 100%
+}
+
+.calculated-area{
+  position: absolute;
+  width: 325px;
+  z-index: 1000;
+  margin: 15px;
+}
+
+.react-mapbox-ac-input{
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-bottom: 0px;
+}
+
+.react-mapbox-ac-menu{
+  position: absolute;
+  width: 90%;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.towermarker {
+  background-image: url('../../../../../assets/images/towericon.png');
+  background-size: cover;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
