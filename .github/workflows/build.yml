@@ -1,0 +1,27 @@
+'on':
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  build:
+    name: Build
+    runs-on: windows-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      - name: Install node 16
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+      - name: Install NPM Dependencies
+        run: npm install --force
+      - name: Build Project
+        run: npm run build
+      - name: Upload artifact in order to deploy
+        uses: actions/upload-artifact@v2
+        with:
+          name: build
+          path: ./build
